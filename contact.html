@@ -54,34 +54,51 @@
                 <input type="date" name="date" id="date" size="30">
             </p>
             <p>
-                <label for="prenom">Votre prénom :</label>
+                <label for="prenom">Prénom :</label>
                 <input type="text" name="prenom" id="prenom" placeholder="Ex. : Michel"maxlength="20">
             </p>
             <p>
-                <label for="nom">Votre nom :</label>
+                <label for="nom">Nom :</label>
                 <input type="text" name="nom" id="nom" placeholder="Ex. : Pierre"  maxlength="20">
             </p>
             <p>
-                <label for="email">Votre mail :</label>
-                <input type="email" name="email" id="email" placeholder="Ex. :gens.vivant@vrai-boite.com" maxlength="30">
+                <label for="email">Mail :</label>
+                <input type="email" name="email" id="email" placeholder="Ex. : gens.vivant@vrai-boite.com" maxlength="30">
             </p>
             <p>
                 <label for="genre">Genre :</label>
-                homme<input type="radio" name="genre" id="homme" value="homme">
-                
-                femme <input type="radio" name="genre" id="femme" value="femme">
-                
-                autre <input type="radio" name="genre" id="autre" value="autre">  
+            
+                Homme<input type="radio" name="genre" id="homme" value="homme">
+                Femme<input type="radio" name="genre" id="femme" value="femme">
+                 
             </p>
             <p>
-                <label for="naissance">Votre date de naissance :</label>
+                <label for="naissance">Date de naissance :</label>
                 <input type="date" name="naissance" id="naissance" size="30">
+            </p>
+            <p>
+                <label for="métier>">Métier :</label>
+                <select name="métier" id="métier">
+                    <option value="" selected disabled>Choisir une option</option>
+                    <option value="étudiant">Étudiant</option>
+                    <option value="professeur">Professeur</option>
+                    <option value="chomeur">Chomeur</option>
+                    <option value="autre">Autre</option>
+                </select>
+            </p>
+            <p>
+                <label for="sujet"> Sujet: </label>
+                <input type="text" id="sujet" name="sujet" placeholder="Sujet de votre mail" >
+            </p>
+            <p>
+                <label for="message"> Message: </label>
+                <textarea class="message" name="message" id="message" rows="4" cols="50" placeholder="Votre message"></textarea>
             </p>
         </form>
     </div>
     <footer> 
         <h4>Copyright©  Nicolas Fontaine et Mehdi Hadi Société 4 R0ues M0trices</h4>
-        test
+        
     </footer>
 </body>
 </html>
