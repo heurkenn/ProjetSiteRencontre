@@ -1,31 +1,30 @@
-
 html {
     background-color: #0e2c86;
 }
- 
+
 body {
     margin: 0;
     padding: 0;
 }
- 
- 
+
+
 a {
     text-decoration: none;
   }
- 
+
 #banniere a{
     color: black;
- 
+
 }
- 
+
 header {
     position: relative;
     width: 100%;
     height: 245px;
     overflow: hidden;
 }
- 
-#banniere {
+
+#banniere { 
     display: flex;
     position: absolute;
     width: 700px;
@@ -36,7 +35,7 @@ header {
     justify-content: space-around;
     color: white;
 }
- 
+
 #banniere h3 {
     border: 1px solid #FFF;
     border-top-left-radius: 20px;
@@ -58,15 +57,15 @@ header {
     background-image: linear-gradient(to bottom, white, rgb(35, 152, 187));
     color: #0e2c86;
 }
- 
+
 #image1{
     
     position: absolute;
     height: 245px;
     right: 0px;
- 
+
 }
- 
+
 #image2 {
     position: absolute;
     z-index: 1;
@@ -75,7 +74,7 @@ header {
     width: 100%;
     
 }
- 
+
 #title {
     position: absolute;
     top: 150px;
@@ -83,7 +82,7 @@ header {
     color: white;
     font-size: 24px;
 }
- 
+
 #menu1 {
     display: flex;
     flex-direction: column;
@@ -96,13 +95,13 @@ header {
     font-size: 17px;
     color: white;
 }
- 
+
 #menu1 a{
     text-decoration: none;
     color: white;
 }
- 
- 
+
+
 #menu2 {
     display: flex;
     flex-direction: column;
@@ -112,15 +111,15 @@ header {
     justify-content: space-around;
     font-size: 17px;
 }
- 
+
 #menu2 h2 {
     text-align: center;
     text-decoration: underline;
     color: white;
     padding-bottom: 3%;
 }
- 
- 
+
+
 #menu2 li {
     list-style-type: none;
     text-align: left;
@@ -129,7 +128,7 @@ header {
     color: white;
     padding-bottom: 6%;
 }
- 
+
 #main {
     position: absolute;
     width: 78%;
@@ -148,30 +147,6 @@ header {
     
 }
 
-#main table thead {
-    font-weight: bolder;
-}
-
-#main table tbody .Modeles {
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-#main table tbody .Prix {
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-#main table tbody button {
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    border-radius: 10px;
-    background-color: #FFF;
-}
- 
 footer {
     position:fixed;
     width: 100%;
@@ -186,7 +161,7 @@ footer {
     height: 40px;
     
 }
- 
+
 .staatliches-regular {
     font-family: "Staatliches", sans-serif;
     font-weight: 400;
@@ -196,16 +171,34 @@ footer {
 label {
     display: inline-block;
     width: 150px;
-    margin-left: 0px;
+    margin-left: 480px;
     text-align: left;
 }
 input {
-    width: 200px;
+    width: 200px; 
     padding: 3px;
 }
- 
+
 #main img{
     max-width: 100%;
     max-height: 100%;
 }
- 
+
+
+#main input[type="radio"] {
+    width: 100px;
+    
+}
+#main form p {
+    display: flex;
+    align-items: center;
+}
+
+#main form label {
+    width: 150px; /* Ajustez la valeur selon vos préférences */
+    margin-right: 10px; /* Ajoutez une marge entre le label et le champ */
+}
+
+#main form input[type="radio"] {
+    width: auto; /* Assurez-vous que la largeur est automatique pour les boutons radio */
+}
