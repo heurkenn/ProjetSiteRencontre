@@ -1,0 +1,303 @@
+
+html {
+    background-color: pink;
+}
+ 
+body {
+    margin: 0;
+    padding: 0;
+}
+ 
+ 
+a {
+    text-decoration: none;
+  }
+ 
+#banniere a{
+    color: black;
+ 
+}
+ 
+header {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+ 
+#banniere {
+    display: flex;
+    position: absolute;
+    width: 700px;
+    top: 189px;
+    left: 43%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+ 
+#banniere h3 {
+    border: 1px solid #FFF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    
+}
+#banniere a.curent h3{
+    background-image: linear-gradient(to bottom, rgb(66, 2, 126), white);
+}
+#banniere a.active h3 {
+    background-image: linear-gradient(to bottom, rgb(35, 152, 187), white);
+    
+}
+ 
+#title {
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    color: white;
+    font-size: 24px;
+}
+ 
+#menu1 {
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+    background-color: pink;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 17px;
+    color: white;
+}
+ 
+#menu1 a{
+    text-decoration: none;
+    color: white;
+}
+ 
+ 
+#menu2 {
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    background-color: pink;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 17px;
+}
+ 
+#menu2 h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    padding-bottom: 3%;
+}
+ 
+ 
+#menu2 li {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 70px;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 6%;
+}
+ 
+#main {
+    position: absolute;
+    width: 83%;
+    right: 0px;
+    height: 679px;
+    bottom: 30px;
+    text-align: center;
+    border-left: 2px solid #FFF;
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;;
+    background-color:white;
+    box-sizing: border-box;
+    padding: 40px;
+    overflow-y: scroll;
+    
+}
+/*############################################################*/
+
+.container {
+    position: relative;
+    top: 50px;
+    left: 420px;
+    overflow: hidden;
+    min-height: 480px;
+    width: 500px;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 32, 63, .45),
+            0 8px 8px rgba(0, 32, 63, .45);
+}
+
+.form-container {
+    position: absolute;
+    top: 0;
+    height:100%;
+}
+
+.créer-compte {
+    left: 0;
+    width:100%;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+}
+
+input {
+    background-color: pink;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+button {
+    background-color: pink;
+    color: black;
+    border: 1px solid pink;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 32px;
+    margin-top: 24px;
+    border-radius: 50px;
+    border-color: black;
+    transition: .2s ease-in;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: pink;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+span {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 24px;
+    color: black;
+}
+/*############################################################*/
+
+#main table thead {
+    font-weight: bolder;
+}
+
+#main table tbody .Modeles {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+#main table tbody .Prix {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+#main table tbody .Stock {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.quantite-commandee {
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#main table tbody button {
+    height: 25px;
+    width: 20px;
+    border: 1px solid black;
+    background-color: #FFF;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+ 
+footer {
+    position:fixed;
+    width: 100%;
+    background-color: pink;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    padding-bottom: 14px;
+    padding-top: 0px;
+    border-top: 2px solid #FFF;
+    bottom: 0px;
+    height: 40px;
+    
+}
+ 
+.staatliches-regular {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+label {
+    margin-right: 10px;
+    text-align: left;
+    margin-left: 0px;
+    display: inline-block;
+    width: 160px;
+}
+
+input {
+    width: 200px;
+}
+
+input[type="radio"]{
+    width: 95px;
+    margin-right: -20px;
+    margin-left: -35px;
+}
+
+.message{
+    height: 50px;
+    width: 500px;
+    text-align: left;
+    margin-right: -300px;
+}
+
+select{
+    width: 210px;
+}
+
+#main img{
+    max-width: 100%;
+    max-height: 100%;
+}
+ 
