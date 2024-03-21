@@ -16,16 +16,16 @@
     </header>
     <div id="menutaille">
         <div id="menu1">
-            <h2>4 R0ues M0trices</h2>
-            <a href="index.html"><h3>Accueil</h3></a>
+            <h2></h2>
+            <a href="index.html"><h3></h3></a>
         </div>
         <div id="menu2">
-            <h2>Nos services</h2>
+            <h2></h2>
             <ul>
-                <a href="hypercar.html"><li>Hypercar</li></a>
-                <a href="sport.html"><li>Sport</li></a>
-                <a href="concessionaire.html"><li>Concessionaire</li></a>
-                <a href="contact.html"><li>Contact</li></a>
+                <a href="hypercar.html"><li></li></a>
+                <a href="sport.html"><li></li></a>
+                <a href="concessionaire.html"><li></li></a>
+                <a href="contact.html"><li></li></a>
             </ul>
         </div>
     </div>

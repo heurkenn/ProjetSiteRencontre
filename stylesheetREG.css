@@ -1,0 +1,120 @@
+html {
+    background-color: pink;
+}
+ 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    top: 180px;
+    left: 610px;
+    overflow: hidden;
+    min-height: 580px;
+    width: 600px;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 32, 63, .45),
+            0 8px 8px rgba(0, 32, 63, .45);
+}
+
+.form-container {
+    position: absolute;
+    top: 0;
+    height:100%;
+}
+
+.créer-compte {
+    left: 0;
+    width:100%;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 550px;
+    text-align: center;
+}
+
+input {
+    position: relative;
+    top: 35px;
+    background-color: pink;
+    border: none;
+    padding: 12px 15px;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 15px;
+}
+
+/*Affichage des bouttons pour les genres*/
+.genre-selector {
+    position: relative;
+    top: 35px;
+    margin-left: 40px;
+    display: flex; /* Utilisation de flexbox pour aligner les éléments en ligne */
+    flex-direction: row; /* Alignement horizontal des éléments */
+}
+
+.genre-selector input[type="radio"] {
+    display: none;
+}
+
+.genre-selector label {
+    cursor: pointer;
+    padding: 8px 16px; /* Ajustez selon vos préférences */
+    border: 1px solid black; /* Bordure des boutons */
+    border-radius: 4px; /* Coins arrondis */
+    background-color: #f0f0f0; /* Couleur de fond */
+    margin-right: 35px;
+}
+
+/* Style pour changer la couleur de fond lorsqu'un bouton est sélectionné */
+.genre-selector input[type="radio"]:checked + label {
+    background-color: pink; /* Couleur de fond pour le bouton sélectionné */
+    color: white; /* Couleur du texte pour le bouton sélectionné */
+}
+
+
+button {
+    position: relative;
+    top: 25px;
+    background-color: pink;
+    color: black;
+    border: 1px solid pink;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 32px;
+    margin-top: 24px;
+    border-radius: 50px;
+    border-color: black;
+    transition: .2s ease-in;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: pink;
+}
+
+h1 {
+    font-family: sans-serif;
+    position: relative;
+    top: 15px;
+    margin: 0;
+    font-size: 28px;
+}
+
+p {
+    position: relative;
+    top: 45px;
+    color: black;
+    font-size: 17px;
+}
